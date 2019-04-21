@@ -1,0 +1,6 @@
+{
+    "PORT":10001,
+    "DBhost":"mongodb://localhost:27017",
+    "database":"mytest",
+    "secret":"laoxie18"
+}

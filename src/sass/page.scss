@@ -1,0 +1,41 @@
+/*
+	公共样式
+ */
+
+// 对齐方式
+.text-center{text-align:center}
+.text-right{text-align:right}
+.v-top{vertical-align:top;}
+.v-middle{vertical-align:middle;}
+
+// 字体颜色
+.text-danger{color:#F56C6C;}
+.text-success{color:#67C23A;}
+.text-warning{color:#E6A23C;}
+.text-primary{color:#409EFF;}
+.text-info{color:#909399;}
+
+// 外边距
+.mt-lg{margin-top:30px;}
+.mt-nm{margin-top:20px;}
+.mt-sm{margin-top:10px;}
+.mt-xs{margin-top:5px;}
+
+
+/*
+	覆盖element-ui样式
+ */
+
+.namelist button{margin:5px 0;}
+.namelist h4{margin-top:0;}
+
+.class-group .el-col{min-height:240px;}
+.class-group .el-card{min-height:220px;}
+
+.el-main h1{margin-top:0;}
+
+.winner{animation:win .5s infinite;}
+@keyframes win{
+    0%{box-shadow:0 0 10px rgba(255,0,0,1);font-weight:bold;}
+    100%{box-shadow:0 0 10px rgba(255,255,0,1);color:#d9534f;}
+}
